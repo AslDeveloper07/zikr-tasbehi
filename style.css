@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+    /* cursor: none; REMOVED */
+}
+
+.counter-container {
+    text-align: center;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #FFD700; /* Oltin rang */
+    margin-bottom: 30px;
+}
+
+.counter-display {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FFD700; /* Oltin rang */
+    margin: 20px 0;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.win-message {
+    font-size: 4rem;
+    color: #2bff00;
+    font-weight: bold;
+    display: none;
+}
+
+.instructions {
+    margin-top: 30px;
+    color: #FFD700; /* Oltin rang */
+    font-size: 1.2rem;
+}
+
+.pressBtn {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #FFD700; /* Oltin rang */
+    border: 7px solid rgba(255, 215, 0, 0.39);
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+.pressBtn:active, .pressBtn.active {
+    background-color: rgba(255, 215, 0, 0.267);
+    border: 7px solid #FFD700;
+    box-shadow: 0px -1px 20px 2px #FFD700;
+}
+
+.downBtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFD700; /* Oltin rang */
+    text-align: center;
+    border: 7px solid #000000;
+    margin-left: 30px;
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+
+.downBtn:active, .downBtn.active {
+    background-color: #ffd900;
+    color: black;
+    box-shadow: 0px -1px 30px 2px #FFD700;
+}
+
+#audioPlayer {
+    display: none; /* Audio elementini yashirish */
+}

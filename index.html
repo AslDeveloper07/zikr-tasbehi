@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zikr tasbehi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+
+</head>
+<body>
+    <div class="counter-container">
+        <h1>تذكروا المسلمين</h1>
+        <div class="counter-display" id="counter">0</div>
+        <div class="win-message" id="winMessage">لقد نلت موافقة الله يا عزيزتي.</div>
+        <button class="pressBtn" id="upButton">
+            <i class="ri-arrow-up-s-line"></i>
+        </button>
+        <button class="downBtn" id="downButton">
+            <i class="ri-arrow-down-s-line"></i>
+        </button>
+        <div class="instructions">
+            إذا وصلت إلى 9999، سيتم غسل خطاياك.
+        </div>
+    </div>
+
+    <!-- musiqa file joylash -->
+    <audio id="audioPlayer" controls>
+        <source src="./music/006.mp3" type="audio/mpeg">
+        Sizning brauzeringiz audio elementini qo'llab-quvvatlamaydi.
+    </audio>
+
+    <script src="./script.js"></script>
+</body>
+</html>
