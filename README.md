@@ -14,7 +14,7 @@ This project is a digital tasbeh (prayer beads counter) created during a JavaScr
 
 ## ✨ Features
 
-- Audio playback control via clicking the tasbeh tab  
+- Audio playback control via clicking the tasbeh tab keyword
 - Keyboard support for incrementing, decrementing, and resetting count  
 - Glowing shadow effect on the active count number  
 - Responsive and user-friendly interface  
